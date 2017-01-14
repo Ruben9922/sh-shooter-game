@@ -72,7 +72,7 @@ sense = SenseHat()
 sense.set_rotation(180)
 sense.low_light = True
 
-BACKGROUND_COLOUR = [40, 40, 40]
+BACKGROUND_COLOUR = [0, 0, 0]
 
 sense.clear(BACKGROUND_COLOUR)
 player = GameObject([0, 255, 255], Position(3, 7), Vector(0, 0))
